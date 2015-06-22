@@ -7,9 +7,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.96.1/css/materialize.min.css">
     <style>
      p {
-      -webkit-hyphens: auto;
-      -moz-hyphens: auto;
-      -ms-hyphens: auto;
+ -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+     -ms-hyphens: auto;
+         hyphens: auto;
       text-align: justify;
      }
     </style>
@@ -27,30 +28,31 @@
       </div>
     </div>
 
-    <div class="container">
+    <div class="container hyphenate">
       <div class="section">
 
         <div class="row">
 
-           <div class="col s12 m6 l4">
+           <div class="col s12 m6">
             <div class="icon-block black-text">
               <h2 class="center red-text"><i class="mdi-action-favorite"></i></h2>
               <h5 class="center">Электроника СВЧ</h5>
               <p class="light">Мы тщательно воспроизводим содержимое лекций Ковтуна, упрощая изложение и добавляя туда только лучшее из книг Люиселла и Вайнштейна. Рекомендуется употреблять перед экзаменами до полного усваивания, а также для профилактики и поиска ошибок в любое время.</p>
-              <p class="center"><a href="/mw-electronics" class="waves-effect waves-light btn blue darken-4"><i class="mdi-editor-insert-link left"></i>Перейти на сайт</a></p>
+              <p class="center"><a href="/mw-electronics" class="waves-effect waves-light btn blue darken-4"><i class="mdi-editor-insert-link left"></i>Перейти</a></p>
             </div>
           </div>
 
-          <div class="col s12 m6 l4">
+          <div class="col s12 m6">
             <div class="icon-block black-text">
               <h2 class="center black-text"><i class="mdi-hardware-computer"></i></h2>
               <h5 class="center">Численные методы</h5>
               <p class="light">Это не столько конспект лекций Жукова, сколько попытка Вовы выплеснуть свои мысли на эту тему. Сегодня невозможно представить использование численных методов в отрыве от ЭВМ, поэтому теория приправлена кодом на простом и выразительном языке Python</p>
-              <p class="center"><a href="/numeric-methods" class="waves-effect waves-light btn blue darken-4"><i class="mdi-editor-insert-link left"></i>Перейти на сайт</a></p>
+              <p class="center"><a href="/numeric-methods" class="waves-effect waves-light btn blue darken-4"><i class="mdi-editor-insert-link left"></i>Перейти</a></p>
             </div>
           </div>
-
-          <div class="col s12 m6 l4">
+        </div>
+		<div class="row">
+          <div class="col s12 m6">
             <div class="icon-block black-text">
               <h2 class="center grey-text"><i class="mdi-action-settings-input-antenna"></i></h2>
               <h5 class="center">«50 оттенков» Серого</h5>
@@ -59,7 +61,7 @@
             </div>
           </div>
 
-          <div class="col s12 m6 l4">
+          <div class="col s12 m6">
             <div class="icon-block black-text">
               <h2 class="center orange-text"><i class="mdi-action-settings-input-antenna"></i></h2>
               <h5 class="center">Электродинамика СВЧ</h5>
@@ -67,7 +69,6 @@
               <p class="center"><a download href="https://www.dropbox.com/s/uzsstgddorh68xs/%D0%AD%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D0%B4%D0%B8%D0%BD%D0%B0%D0%BC%D0%B8%D0%BA%D0%B0%20%D0%A1%D0%92%D0%A7.pdf?dl=1" class="waves-effect waves-light btn blue darken-4"><i class="mdi-file-file-download left"></i>Скачать PDF</a></p>
             </div>
           </div>
-
         </div>
       </div>
     </div>
@@ -88,7 +89,8 @@
       </div>
     </footer>
     <!--Import jQuery before materialize.js-->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.96.1/js/materialize.min.js"></script>
+    <script src="js/hyphenator.js"></script>
   </body>
 </html>
